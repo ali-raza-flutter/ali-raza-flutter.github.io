@@ -56203,7 +56203,7 @@ if(s)return"DateTime?"
 else return A.e5(J.M(a).a,null)+"?"}},
 dk(a){var s,r=B.b.a1N(A.b(a.split("_"),t.s),new A.a_M()),q=r.length
 if(q!==0){s=r[0]
-q=q>2?B.c.cL(r,1):""
+q=q>1?B.c.cL(r,1):""
 q=s.toLowerCase()+q}else q=""
 return q},
 Qn(a){var s,r
