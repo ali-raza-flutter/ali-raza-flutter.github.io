@@ -1,11 +1,11 @@
 {
-    "name": "json_serialization",
-    "short_name": "json_serialization",
+    "name": "Json Serialization",
+    "short_name": "Json Serialization",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Json Serialization for Dart.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
