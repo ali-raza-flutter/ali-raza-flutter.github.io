@@ -69919,12 +69919,12 @@ else if(b!=null&&typeof b=="string"&&A.acw(b)!=null)return"_"+r.e7(a)+"?.toStrin
 else return"_"+r.e7(a)},
 X1(a,b){var s,r,q,p=this,o='"].toString()):null '
 if(t.j.b(b)){s=J.aq(b)
-if(s.ga3(b))return'(json["'+a+'"] as List).map((e) => e).toList()'
+if(s.ga3(b))return'(json["'+a+'"] as List?)?.map((e) => e).toList()'
 else{r='(json["'+a
 if(t.f.b(s.gF(b))){s=p.iW(s.gF(b),a)
 return r+'"] as List?)?.map((dynamic e) => '+A.AE(s,"?","")+".fromJson(e)).toList()"}else{q=p.iW(s.gF(b),a)
 s=p.iW(s.gF(b),a)
-return r+'"] as List).map((e) => e as '+q+").whereType<"+A.AE(s,"?","")+">().toList()"}}}else if(t.f.b(b)){s=p.iW(b,a)
+return r+'"] as List?)?.map((e) => e as '+q+").whereType<"+A.AE(s,"?","")+">().toList()"}}}else if(t.f.b(b)){s=p.iW(b,a)
 return'json["'+a+'"] != null? '+A.AE(s,"?","")+'.fromJson(json["'+a+'"]):null'}else if(b==null)return'json["'+a+'"]'
 else if(J.L(b)===B.OO)return'json["'+a+'"] != null? double.tryParse(json["'+a+o
 else{s=typeof b=="string"&&A.acw(b)!=null
